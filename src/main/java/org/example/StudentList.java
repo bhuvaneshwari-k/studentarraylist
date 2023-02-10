@@ -1,7 +1,6 @@
 package org.example;
 import java.util.logging.*;
 import java.util.*;
-import java.lang.*;
 class Student implements Comparator<Student>{
     Logger l=Logger.getLogger("com.api.jar");
     String name;
