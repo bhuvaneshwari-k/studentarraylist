@@ -33,11 +33,12 @@ class StudentTest {
         Student s1 = new Student();
         Student s2 = new Student();
         Student s3 = new Student();
-        l.info("Enter the Student Name,Age,GPA:");
+        String msg="Enter the Student Name,Age,GPA:";
+        l.info(msg);
         s1.setDetail(s.nextLine(), sc.nextInt(), sc.nextDouble());
-        l.info("Enter the Student Name,Age,GPA:");
+        l.info(msg);
         s2.setDetail(s.nextLine(), sc.nextInt(), sc.nextDouble());
-        l.info("Enter the Student Name,Age,GPA:");
+        l.info(msg);
         s3.setDetail(s.nextLine(), sc.nextInt(), sc.nextDouble());
         ArrayList<Student> list = new ArrayList<>();
         list.add(s1);
