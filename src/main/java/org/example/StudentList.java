@@ -2,7 +2,7 @@ package org.example;
 import java.util.logging.*;
 import java.util.*;
 class Student implements Comparator<Student>{
-    Logger l=Logger.getLogger("com.api.jar");
+    Logger l=Logger.getLogger("student.class");
     String name;
     int age;
     double gpa;
@@ -26,7 +26,7 @@ class Student implements Comparator<Student>{
  }
 class StudentTest {
     public static void main(String[] args) {
-        Logger l = Logger.getLogger("com.api.jar");
+        Logger l = Logger.getLogger("student.class");
         Scanner sc = new Scanner(System.in);
         Scanner s = new Scanner(System.in);
         Student s1 = new Student();
